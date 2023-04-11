@@ -6,7 +6,7 @@ game.StarterGui:SetCore("SendNotification", {
 })
 wait(2)
 workspace.CurrentRooms["0"]:Destroy()
-wait(5)
+wait(10)
 game.StarterGui:SetCore("SendNotification", {
     Title = "Never";
     Text = "Going";
