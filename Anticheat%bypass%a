@@ -1,0 +1,41 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Destroying computer";
+    Text = "this may take a second";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Never";
+    Text = "Going";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "to";
+    Text = "Give you up";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "never going to let you down";
+    Text = "Never going to run around";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "and desert you";
+    Text = "now goodbye NERD!";
+    Duration = "5";
+    Callback = NotificationBindable;
+})
+wait(2)
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+wait(5)
+game.Players.LocalPlayer:Kick("You have been banned for exploiting. Reason, RickRoll.Virus")
+wait(5)
+game.GuiService:ToggleFullscreen()
+game.GuiService:ToggleFullscreen()
