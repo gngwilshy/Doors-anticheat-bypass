@@ -5,6 +5,8 @@ game.StarterGui:SetCore("SendNotification", {
     Callback = NotificationBindable;
 })
 wait(2)
+workspace.CurrentRooms["0"]:Destroy()
+wait(1)
 game.StarterGui:SetCore("SendNotification", {
     Title = "Never";
     Text = "Going";
